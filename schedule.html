@@ -2,28 +2,39 @@
 <head>
   <title>WRA 410 Schedule</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <style>
-    .wrapper{
-      display:grid;
-      grid-template-columns: 25% 40% 35%;
-    }
-    .wrapper > div{
-      background: #eee;
-      padding:1em;
-    }
-    .wrapper > div:nth-child(3n+2){
-      background: #ddd;
-    }
-
-  </style>
+  
 </head>
 <body>
-  <h1><center><h1>WRA 410 Schedule</h1></center></h1>
+  <div id="sched-head">
+    <div id="wra-sched">
+       <h1>WRA 410 Schedule</h1>
+    </div>
+  </div>  
+ <div id="container">
+  <div id="content">
+      <div id = "nav" class="box2">
+   
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><div id="nav-line"></div></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><div id="nav-line"></div></li>
+            <li><a href="policies.html">Policies</a></li>
+            <li><div id="nav-line"></div></li>
+            <li><a class="selected" href="">Schedule</a></li>
+            <li><div id="nav-line"></div></li>
+            <li><a href="assignments.html">Assignments</a></li>
+            <li><div id="nav-line"></div></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><div id="nav-line"></div></li>
+            <li><a href="groups.html">Groups</a></li>
+          </ul>  
+        </div>
   <div class = "wrapper">
-    <div class =schedule-date>
+    <div class ="schedule-date">
       Week 1 January 8, 10
     </div>
-    <div>
+    <div class="schedule-content">
       Course Overview<br>
       <a href="https://docs.google.com/presentation/d/1Y6CHad8iVvyii44YTcipWlHnyRqqIMIw7awQZwQxjok/edit?usp=sharing">Introductions: Me, You, and the Course</a>
     </div>
@@ -34,10 +45,10 @@
         <li><a href=" http://www.readysetrails.com/index.php/181/this-is-why-learning-rails-is-hard/">Why Learning Rails is Hard</a></li>
       </ul>
     </div>
-    <div class =schedule-date>
+    <div class ="schedule-date">
       Week 2 January 15, 17
     </div>
-    <div>
+    <div class="schedule-content">
       Setting Up Your Software Development Environment<br>
       <a href="https://docs.google.com/presentation/d/15A9x1AsugtnAZcs9UYcfG5WddA9I4sD0PiJjpxtq5ZM/edit?usp=sharing">Unix, Git and Github</a>
     </div>
@@ -53,7 +64,7 @@
     <div class =schedule-date>
       Week 3 January 22, 24
     </div>
-    <div>
+    <div class="schedule-content">
       HTML and CSS<br>
       <a href="https://docs.google.com/presentation/d/1W1SAp6KW7N_FMHVk9buxU-UkMg-NyKHgxPqFqIlsdcc/edit#slide=id.g4e33bd0f97_0_45">Improving wra410 with HTML, CSS and git</a>
     </div>
@@ -67,7 +78,7 @@
   <div class =schedule-date>
         Week 4 January 29, 31
       </div>
-      <div>
+      <div class="schedule-content">
         Introduction to Ruby
       </div>
        <div class = schedule-resources>
@@ -83,7 +94,7 @@
       <div class =schedule-date>
         Week 5 February 5, 7
       </div>
-      <div>
+      <div class="schedule-content">
         Advanced Ruby Topics <br>
         February 7 Meet in the <a href="https://lib.msu.edu/dslab/"></a>MSU Library Digital Scholarship Lab Flex Space
       </div>
@@ -100,7 +111,7 @@
       <div class =schedule-date>
         Week 6 February 12, 14
       </div>
-      <div>
+      <div class="schedule-content">
         Introduction to Rails <br>
 
       </div>
@@ -117,7 +128,7 @@
       <div class =schedule-date>
             Week 7 February 19, 21
           </div>
-          <div>
+          <div class="schedule-content">
             Object Oriented Programming and User Stories
           </div>
            <div class = schedule-resources>
@@ -129,7 +140,7 @@
           <div class =schedule-date>
             Week 8 February 26, 28
           </div>
-          <div>
+          <div class="schedule-content">
             Rails Models and Test Driven Development<br>
             February 26 Meet in the <a href="https://lib.msu.edu/dslab/"></a>MSU Library Digital Scholarship Lab Flex Space
           </div>
@@ -143,7 +154,7 @@
           <div class =schedule-date>
             Week 9 March 5, 7
           </div>
-          <div>
+          <div class="schedule-content">
             Spring Break
           </div>
            <div class = schedule-resources>
@@ -154,7 +165,7 @@
        <div class =schedule-date>
             Week 10 March 12, 14
           </div>
-          <div>
+          <div class="schedule-content">
             Rails Views<br>
             March 14 Meet in the <a href="https://lib.msu.edu/dslab/"></a>MSU Library Digital Scholarship Lab Flex Space
           </div>
@@ -171,7 +182,7 @@
 		<div class =schedule-date>
             Week 11 March 19, 21
           </div>
-          <div>
+          <div class="schedule-content">
             CRUD
           </div>
            <div class = schedule-resources>
@@ -201,7 +212,7 @@
 <div class =schedule-date>
             Week 13 April 2, 4
           </div>
-          <div>
+          <div class="schedule-content">
             Javascript in Rails Part II
           </div>
            <div class = schedule-resources>
@@ -214,7 +225,7 @@
 <div class =schedule-date>
             Week 14 April 9, 11
           </div>
-          <div>
+          <div class="schedule-content">
             Iteration One Workshop
           </div>
            <div class = schedule-resources>
@@ -226,7 +237,7 @@
 <div class =schedule-date>
             Week 15 April 16, 18
           </div>
-          <div>
+          <div class="schedule-content">
             Iteration Two Workshop
           </div>
            <div class = schedule-resources>
@@ -237,14 +248,16 @@
 <div class =schedule-date>
             Week 16 April 23, 25
           </div>
-          <div>
+          <div class="schedule-content">
             Iteration Two Workshop Continued
           </div>
            <div class = schedule-resources>
            <ul>
       
             </ul>
-          </div>                     
+          </div>  
+          </div>                   
+    </div>
     </div>
 </body>
 </html>
