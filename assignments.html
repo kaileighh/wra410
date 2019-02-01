@@ -1,86 +1,103 @@
 <html>
 <head>
   <title>WRA 410</title>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lato">
+
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-  <div id = "container">
-    <div id = "header">
-      <h2> WRA 410 Advanced Web Authoring </h2>
+    <div id="header">
+    <div id="wra-head" class="head-type"><h2>WRA 410</h2></div>
+    <div id="awa-head" class="head-type"><h2>Advanced Web Authoring</h2></div>
     </div>
-    <div id ="content">
-        <div id = "nav" class="box2">
+  
+      <div id = "nav">
+        <ul class="nav">
+          <li><a href="index.html">HOME</a></li>
+         
+          <li><a href="contact.html">CONTACT</a></li>
+         
+          <li><a href="policies.html">POLICIES</a></li>
    
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><div id="nav-line"></div></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><div id="nav-line"></div></li>
-              <li><a href="policies.html">Policies</a></li>
-              <li><div id="nav-line"></div></li>
-              <li><a href="schedule.html">Schedule</a></li>
-              <li><div id="nav-line"></div></li>
-              <li><a class="selected" href="">Assignments</a></li>
-              <li><div id="nav-line"></div></li>
-              <li><a href="resources.html">Resources</a></li>
-              <li><div id="nav-line"></div></li>
-              <li><a href="groups.html">Groups</a></li>
-            </ul>  
-          </div>
-      <div id = "main">
-        <h2>Class Participation</h2>
-        <div id="contact-content">
-        <p>Each week, post at least two comments to the class google document. This will help you problem solve, communicate and collaborate mre effectively. It will make visible issues we can then address and it will serve as a valauble resource over time. This will be worth up to 100 points over the semester. I'll provide a grade at the end of every month. </p><br>
-        <p> <a href="https://docs.google.com/document/d/1xkNH0uTS0eKyeuKK-n-oFc9xwXeNPyQhF3KM-6RdijI/edit#heading=h.85o64adj8l80">Google Document for Sharing Questions, Answers and Tips</a></p><br>
-        </div>
+          <li><a href="schedule.html">SCHEDULE</a></li>
+         
+          <li><a class="selected" href="">ASSIGNMENTS</a></li>
+         
+          <li><a href="resources.html">RESOURCES</a></li>
 
-        <h2>Coding Exercises</h2>
-        <div id="contact-content">
-        <p>Each person will create 4 individual projects. Each project will be worth up to 100 points for a total of 400 possible points.</p>
-         <p>Assignment 1: <a href="assignment1.html">HTML/CSS</a></p>
-         <p>Assignment 2: Ruby</p>
-         <p>Assignment 3: Model/TDD</p>
-         <p>Assignment 4: CRUD</p>
+          <li><a href="https://docs.google.com/document/d/1xkNH0uTS0eKyeuKK-n-oFc9xwXeNPyQhF3KM-6RdijI/edit#heading=h.85o64adj8l80">CLASS-DOC</a></li>
+        </ul>  
+      </div>
+
+      <div id = "container">
+      <div id ="content-1">
+        <div id="main-type">
+            <img src="contact-icon.png" alt="Icon of a phone and letter"><br>
+            <h3 class="contact">Assignments</h3></div>
+      </div>
+        
+      <div id="content-2">
+        <div id="sub-content-1" class="content-box">
+                <h2>Class Participation</h2>
+            <div id="contact-content">
+                <p>Each week, post at least two comments to the class google document. This will help you problem solve, communicate and collaborate mre effectively. It will make visible issues we can then address and it will serve as a valauble resource over time. This will be worth up to 100 points over the semester. I'll provide a grade at the end of every month. </p><br>
+                <p> <a href="https://docs.google.com/document/d/1xkNH0uTS0eKyeuKK-n-oFc9xwXeNPyQhF3KM-6RdijI/edit#heading=h.85o64adj8l80">Google Document for Sharing Questions, Answers and Tips</a></p><br>
+            </div>
+        </div>
+        <div id="sub-content-2" class="content-box">
+                <h2>Coding Exercises</h2>
+                <div id="contact-content">
+                <p>Each person will create 4 individual projects. Each project will be worth up to 100 points for a total of 400 possible points.</p>
+                 <p>Assignment 1: <a href="assignment1s.html">HTML/CSS</a></p>
+                 <p>Assignment 2: Ruby</p>
+                 <p>Assignment 3: Model/TDD</p>
+                 <p>Assignment 4: CRUD</p>
+                 </div>
+        </div>
+        <div id="sub-content-3" class="content-box">
+                <h2>Rails Technique Presentation</h2>
+                <div id="contact-content">
+                <p>Present a rails coding technique that is useful for the purposes of this class. You might chose a topic from one of the more than 400 <a href="http://railscasts.com">RailsCast </a>videos or you can choose one of the almost 10,000 <a href="https://rubygems.org/gems">rails gems</a>.
+                Your presentation will be worth up to 100 points and will be given in class between March 26 and April 25.  
+        
+                <ul>    
+                <li class="assignment-li">Pick a topic that is important. 
+                  <li>Define the topic.</li> 
+                  <li>Explain how the technique works and why it is useful.</li>
+                  <li>Your presentation should last about 10 minutes. </li>
+                 </ul> 
+              </div>
          </div>
-
-
-        <h2>Rails Technique Presentation</h2>
-        <div id="contact-content">
-        <p>Present a rails coding technique that is useful for the purposes of this class. You might chose a topic from one of the more than 400 <a href="http://railscasts.com">RailsCast </a>videos or you can choose one of the almost 10,000 <a href="https://rubygems.org/gems">rails gems</a>.
-        Your presentation will be worth up to 100 points and will be given in class between March 26 and April 25.  
-
-        <ul>    
-        <li>Pick a topic that is important. 
-          <li>Define the topic.</li> 
-          <li>Explain how the technique works and why it is useful.</l1>
-          <li>Your presentation should last about 10 minutes. </li>
-         </ul> 
-      </div>
-        
-        
-        <h2>Our Michign Ave Feature Iteration 1</h2>
-        <div id="contact-content">
-        <p>This group project will add a feature to the Our Michigan Ave website. User research and test driven development will be part of the software development process. This project will be worth up to 200 points.</p>
+         <div id="sub-content-4" class="content-box">
+                <h2>Our Michign Ave Feature Iteration 1</h2>
+                <div id="contact-content">
+                <p>This group project will add a feature to the Our Michigan Ave website. User research and test driven development will be part of the software development process. This project will be worth up to 200 points.</p>
+                </div>
+         </div>
+         <div id="sub-content-5" class="content-box">
+                <h2>Our Michign Ave Feature Iteration 2</h2>
+            <div id="contact-content">
+            <p>This group project will add a Javascript feature to the Our Michigan Ave website building on the feautre from your first iteration. User research and test driven development will be part of the software development process. This project will be worth up to 200 points.</p>
+            </div>
+        </div>
+        <div id="sub-content-6" class="content-box">
+                <h2>Grading Scale </h2>
+            <div id="grading">
+            <div class="grade">4.0</div>
+            <div class="score">1000-930 </div>
+            <div class="grade">3.5</div>
+            <div class="score">929-850</div>
+            <div class="grade">3.0</div>
+            <div class="score">849-800</div>
+            <div class="grade">2.5</div>
+            <div class="score">849-800</div>
+      </div>   
         </div>
 
-        <h2>Our Michign Ave Feature Iteration 2</h2>
-        <div id="contact-content">
-        This group project will add a Javascript feature to the Our Michigan Ave website building on the feautre from your first iteration. User research and test driven development will be part of the software development process. This project will be worth up to 200 points.</p>
-       </div>
-        <h2>Grading Scale </h2>
-     <div id="grading">
-        <div class="grade">4.0</div>
-        <div class="score">1000-930 </div>
-        <div class="grade">3.5</div>
-        <div class="score">929-850</div>
-        <div class="grade">3.0</div>
-        <div class="score">849-800</div>
-        <div class="grade">2.5</div>
-        <div class="score">849-800</div>
-      </div>   
-       
       </div>
-    </div>
+
+      
     <div id = "footer">
       Copyright &copy; 2019 John Monberg
     </div>
